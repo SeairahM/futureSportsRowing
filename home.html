@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Future Sports</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"/>
+    <meta name="author" content="Sarah Marion" />
+  </head>
+  <body>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0" nonce="lifoccDT"></script>
+
+       <nav>
+      <ul>
+        <li>
+          <a tabindex="1" href="#welcome">Welcome</a>
+        </li>
+        <li>
+          <a tabindex="2" href="#events">Events</a>
+        </li>
+        <li>
+          <a tabindex="3" href="#about">About</a>
+        </li>
+        <li>
+          <a tabindex="4" href="#contactsection">Contact</a>
+        </li>
+      </ul>
+
+      <div class="searchbar" role="search">
+        <input type="text" id="searchInput" name="searchInput" placeholder="search...">
+        <button type="search" id="searchButton">
+          <img src="images/searchicon.png" alt="Search Icon" />
+        </button>
+        <label for="searchResults" id="searchResults" hidden>Search results</label>
+        <button class="closeButton" id="closeButton" hidden>X</button>
+      </div>
+    </nav>
+    <div class="logo" role="img">
+      <img src="images/logo.png" alt="Future Sports Logo" />
+    </div>
+
+    <header>
+
+        <div class="carousel-container">
+           
+            <div class="carousel">
+              <img class="carousel-slide" src="images/aaron-burden.jpg" alt="Boat on lake">
+              <img class="carousel-slide" src="images/mitchell-luo.jpg" alt="Rowers in rowing boat">
+              <img class="carousel-slide" src="images/rhys-moult.jpg" alt="Two rowers in two different boats on a lake">
+            </div>
+            <button id="prevBtn" class="carousel-button">&#10094;</button>
+            <button id="nextBtn" class="carousel-button">&#10095;</button>
+          </div>
+         
+
+    </header>
+
+    <main>
+      <h1 class="welcome" id="welcome">Future Sports</h1>
+      <p>Row your way, every day, with Future Sports.</p>
+    </main>
+
+    
+    <div class="events" id="events">
+        <h2>Events</h2>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Event</th>
+                <th>Venue</th>
+                <th>Type</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>23 Aug 2023</td>
+                <td>Future Sports - Club Open Day</td>
+                <td>Ballarat</td>
+                <td>Community Event</td>
+                <td><a href="https://rowingmanager.com/vic/">Event Info</a></td>
+            </tr>
+            <tr>
+                <td>27 Aug 2023</td>
+                <td>Junior Sprint Regatta</td>
+                <td>Ballarat</td>
+                <td>Relay Race</td>
+                <td><a href="https://rowingmanager.com/vic/">Event Info</a></td>
+            </tr>
+            <tr>
+                <td>28 Aug 2023</td>
+                <td>Future Sports - Volunteer Registration</td>
+                <td>Ballarat</td>
+                <td>Community Event</td>
+                <td><a href="https://rowingmanager.com/vic/">Event Info</a></td>
+
+            </tr>
+            <tr>
+                <td>9 Sep 2023</td>
+                <td>Games Registration Day</td>
+                <td>Community Event</td>
+                <td>Lake Weeroona</td>
+                <td><a href="https://rowingmanager.com/vic/">Event Info</a></td>
+            </tr>
+            <tr>
+                <td>9 Sep 2023</td>
+                <td>Raggata Tournament</td>
+                <td>Community Event</td>
+                <td>Head Race</td>
+                <td><a href="https://rowingmanager.com/vic/">Event Info</a></td>
+           
+            </tr>
+        </table>
+    </div>
+
+    <div class="mediazone">
+        <div class="vid">
+            <video width="100%" height="" controls="true">
+                <source src="video/rowingvid.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="fb">
+            <div class="fb-post" SameSite=Strict data-href="https://www.facebook.com/RowingVictoria/posts/pfbid0aqVa5AdRzAV8GVc1pBkRRwb4zbqMs7rx6YgFiAqyfx7B8F4PUfKHm5h5JgePz1b3l" data-width="100%" data-show-text="true">
+                <blockquote cite="https://www.facebook.com/RowingVictoria/posts/762981982499612" class="fb-xfbml-parse-ignore">
+                <p>Looking back ⏪ at the amazing performances of our U23, U21, &amp; U19 representatives at international level! 🌍
+
+                🥇U23W4+...</p>Posted by 
+                <a href="https://www.facebook.com/RowingVictoria">Rowing Victoria</a> on&nbsp;
+                <a href="https://www.facebook.com/RowingVictoria/posts/762981982499612">Thursday, August 17, 2023</a>
+            </blockquote>
+            </div> 
+        </div>
+    </div>
+
+<div class="about" id="about">
+    <h2>
+        About
+    </h2>
+    <p>
+        Whether you're an experienced rower seeking a new imaginary challenge or a 
+        complete novice eager to dip your oars into the waters of imagination, 
+        Future Sports Rowing Club welcomes you. We organize a variety of events throughout the year, 
+        from friendly inter-club regattas to workshops led by renowned rowing experts.
+         These gatherings not only enhance our members' skills but also provide opportunities for them to
+          connect with fellow enthusiasts who share their passion.
+         Join us in creating a shared narrative of friendship,
+         personal growth, and the sheer joy of rowing across imaginary horizons. 
+        Your adventure awaits on the waters of Future Sports.  </p>
+
+</div>
+
+<div class="contactsection" id="contactsection">
+    <h2>Contact</h2>
+    <form id="contactform">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Required"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Required"><br>
+        <label for="cnumber">Contact number:</label><br>
+        <input type="number" id="cnumber" name="cnumber" placeholder="Required"><br>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Required"><br>
+        <label for="message"> Question</label><br>
+        <textarea id="message" name="message" rows="10" cols="30" placeholder="Please write your query here..">  
+        </textarea>
+        <input type="submit" value="Submit">
+        
+    </form>
+</div>
+<div id="querySubmitted" hidden>
+    <h2>Thank You!</h2>
+    <p>Your question has been submitted.</p>
+</div>
+
+
+    <footer>
+        <p>&#169 Future Sports 2023</p>
+        <ul>
+            <li><button class="privacy" id="privacy">Privacy Statement</button></li>
+            <li><button class="contact" id="contact">Contact</button></li>
+            <li><button class="tac" id="tac">Terms and Conditions</button></li>
+        </ul>
+
+
+        <script src="js/myscript.js"></script>
+
+    </footer>
+  </body>
+</html>

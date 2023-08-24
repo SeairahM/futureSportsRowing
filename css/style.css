@@ -1,0 +1,368 @@
+body{
+    margin: 0;
+    padding: 0; 
+    font-family: "Inter", "Arial", "sans-serif";
+}
+h1, h2, h3, h4, h5, h6, p, a, li, input, label{
+    font-family: "Inter", "Arial", "sans-serif";
+}
+h3{
+    font-size: 16px;
+    font-weight: 300;
+}
+p{
+    font-size: 12px;
+}
+
+nav a{
+    color: #FFFFFF;
+}
+nav a:visited{
+    color: #FFFFFF;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display:flex;
+    flex-wrap: nowrap;
+    top: 0;
+    z-index:1;
+    margin-top: 0;
+}
+
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+}
+
+nav li{
+    display: inline;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 0;
+    font-family: "Inter", "Arial", "sans-serif";
+    padding-left: 7%;
+} 
+
+nav ul li a:hover {
+    font-family: "Inter", "Arial", "sans-serif";
+    color: white;
+    background-color: lightslategray;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.searchbar{
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap; 
+
+}
+
+#searchInput{
+    margin-top: 10px;
+    height:20px
+}
+
+.searchbar button{
+    margin-right: 40px;
+    width: 40px;
+    height:40px;
+    background-color: black;
+    border: none;
+    float: right;
+}
+
+.searchbar button img{
+    width: 35px;
+    height: 35px;
+    border: none;
+    margin-top: 5px;
+   
+}
+
+.searchbar button:hover{
+    font-family: "Inter";
+    border-radius: 20%;
+    background-color: lightslategray;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#searchResults{
+    z-index: 1;
+    position:fixed;
+    color: white;
+    background-color: rgb(28, 26, 26);
+    margin-top: 40px;
+    border-radius: 2%;
+    width: 100%;
+    height: 20%;
+}
+#closeButton {
+    margin-top: 50px;
+    color: red;
+
+    border: none;
+    border-radius: 3px;
+    /* padding: 8px 16px; */
+    cursor: pointer;
+    z-index: 1;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 70%;
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+    border-radius: 80%;
+    border: 2px;
+    position: fixed;
+    top: 0;
+    z-index: 1; 
+  }
+  
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-slide {
+    flex-shrink: 0;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-button {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  
+  #prevBtn {
+    left: 20px;
+
+  }
+  
+  #nextBtn {
+    right: 20px;
+  }
+  
+main{
+    border: 10px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    text-align: center;
+}
+
+main h1{
+    size: 24px;
+}
+
+main p{
+    size: 14px;
+}
+
+.events h2{
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: "Inter", Arial, Helvetica;;
+}
+.events {  
+    padding: 0 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  th {
+    background-color: #f0f0f0;
+  }
+
+  .mediazone{
+    display: flex;
+    padding: 30px;
+    padding-top: 100px;
+
+  }
+
+  .vid {
+   flex: 70%;
+   width: 100%;
+   height: 350px;
+   box-sizing: border-box;
+   display:inline;
+   padding-right: 30px;
+  }
+
+  .fb {
+    flex: 30%;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    
+}
+.about {
+    text-align: center;
+    padding: 0 200px;
+    margin-top: 70px;
+}
+  .contactsection {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }
+  
+  .contactsection form {
+    width: 70%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add some space between heading and form */
+  }
+  
+  .contactsection h2 {
+    text-align: center;
+    margin-bottom: 10px; /* Add margin at the bottom of the heading */
+  }
+  
+  .contactsection label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .contactsection input,
+  .contactsection textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .contactsection textarea {
+    resize: vertical;
+  }
+  
+  .contactsection input[type="submit"] {
+    background-color: #2e74ba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .contactsection input[type="submit"]:hover {
+    background-color: #000000;
+  }
+  
+  .contactsection .submit-button {
+    margin-top: 20px; /* Add space above the submit button */
+    text-align: center;
+  }
+  .querySubmitted{
+    border: 10px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  footer{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+  }
+
+  footer p{
+    padding-left: 30px;
+    width: 20%;
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+
+  footer ul{
+    width: 80%;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+}
+
+footer li{
+    display: inline;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-right: 5%;
+    margin-left: 0;
+    font-family: "Inter", "Arial", "sans-serif";
+    padding-left: 7%;
+} 
+
+footer button{
+    background-color: #000000;
+    border: none;
+    color: white;
+}
+footer button:hover{
+    background-color: rgb(154, 153, 153);
+}
